@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#1c2c35" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#1c2c35" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/pacman.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Renato Beltran Dev</title>
+  </head>
+
+  <body>
+    <div id="my-home" class="container my-bg">
+      <header class="my-header">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+          <div class="container">
+            <a class="navbar-brand" href="./index.html"
+              ><img
+                src="images/my-avatar.png"
+                alt=""
+                class="d-inline-block align-text-top"
+              />
+              Renato Beltran</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse"
+              id="navbarNavAltMarkup"
+              style="justify-content: right"
+            >
+              <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="#my-home"
+                  >&#60;Home /&#62;</a
+                >
+                <a class="nav-link" href="#my-bio">&#60;Bio /&#62;</a>
+                <a class="nav-link" href="#my-work">&#60;Work /&#62;</a>
+                <a class="nav-link" href="#my-projects">&#60;Projects /&#62;</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main class="my-main">
+        <section>
+          <div class="row">
+            <div class="col-xs-12 col-lg-7" style="padding-top: 50px">
+              <h1 class="i-am">
+                <a
+                  href=""
+                  class="typewrite"
+                  data-period="2000"
+                  data-type='[ "Hi, I´m Renato, software engineer and fullstack developer.", "I love Javascript, CSS, Html, React JS, PHP, jQuery, MySQL, MongoDB, Ajax", "I build things from scratch...", "Did I mention that I love Linux?" ]'
+                >
+                  <span class="wrap"></span>
+                </a>
+              </h1>
+            </div>
+
+            <div class="col-xs-12 col-lg-5 d-flex justify-content-center">
+              <img src="./images/hero.png" alt="" />
+            </div>
+
+            <div class="col-xs-12 d-flex justify-content-center">
+              <h2 class="what-i-do" data-aos="fade-up">
+                I specialize in single page applications based in React JS, PHP,
+                HTML5, jQuery
+              </h2>
+            </div>
+          </div>
+        </section>
+
+        <hr class="my-spacer" />
+
+        <section id="my-bio" style="padding-top: 40px">
+          <div class="row" style="padding-top: 50px; padding-bottom: 50px">
+            <div class="col-md-7 my-about">
+              <h1>My Bio</h1>
+              <p>
+                I am a <span>full stack developer</span> with more than 10 years
+                of experience in various programming languages. I have done
+                several projects for the web in Javascript, jQuery, React JS and
+                PHP. I also wrote code for microcontrollers and PC software in
+                Visual Basic .NET
+              </p>
+              <p></p>
+              <p class="d-sm-none d-xs-none d-md-block">
+                I studied Electronics, Networks & Communications, Marketing,
+                Business Administration and <span>Software Development</span>. I
+                like to learn and share my experience with work teams.
+              </p>
+              <p>Feel free to contact me at</p>
+              <div
+                class="my-contact"
+                data-aos="fade-right"
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: left;
+                "
+              >
+                <a href="mailto:ocram@beltren.dev"
+                  ><i class="far fa-envelope"></i
+                ></a>
+                <a href="https://github.com/otanerocram" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="https://www.linkedin.com/" target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/channel/UCcVfnoVgJozJJi6I1-V0Z7g"
+                  target="_blank"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-5 my-photo d-flex justify-content-center">
+              <img src="./images/perfil.png" alt="" data-aos="fade-left"/>
+            </div>
+          </div>
+        </section>
+
+        <hr class="my-spacer" />
+
+        <section>
+          <div class="row">
+            <div class="col-md-6 col-xs-12 video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/MdPhZlP5myw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="col-md-6 more-projects" data-aos="flip-left">
+              <h1>About Me</h1>
+              <h6>
+                My name is Renato Beltrán, I am a fullstack software developer,
+                entrepreneur and technology lover.
+              </h6>
+              <h6>
+                I live in Peru and have worked in various technology companies,
+                developing cloud-based systems, applications and platforms. In
+                my free time I like to play video games, finish my favorite TV
+                series, play with my children and go for a walk with my family.
+              </h6>
+              <h6>
+                I am constantly learning and I like to teach what I have learned
+                to others. I consider myself good at what I do and I like to
+                achieve new goals
+              </h6>
+            </div>
+          </div>
+        </section>
+
+        <hr class="my-spacer" />
+
+        <section id="my-work">
+          <div class="row">
+            <div class="col-sm-12 more-projects">
+              <h1>My Work</h1>
+            </div>
+            <div class="col-sm-12">
+              <div class="card c-main">
+                <div class="card-body">
+                  <h5 class="card-title">My Recent Works</h5>
+                  <p class="card-text">
+                    These are some of the most recent projects I have been
+                    working on
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card c-blue">
+                <img src="./images/plataforma-1.png" alt="" />
+
+                <div class="card-body">
+                  <h5 class="card-title">Xtreme AVL Platform</h5>
+                  <p class="card-text">
+                    Based on HTML5, jQuery, Java and MySQL. This Web platform
+                    allows you to track any vehicle with a GPS locator installed
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card c-red">
+                <img src="./images/app-1.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Vehicle Status App</h5>
+                  <p class="card-text">
+                    Android App to track vehicle position and get info about
+                    insurance, technical revision an other important info
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card c-green">
+                <img src="./images/rimac-spa.png" alt="" />
+
+                <div class="card-body">
+                  <h5 class="card-title">Online Insurance Quote</h5>
+                  <p class="card-text">
+                    Based on React JS and MongoDB. It's a SPA app that allows
+                    you register to get a insurance policy
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr class="my-spacer" id="my-projects" />
+            <div class="col-sm-12 more-projects">
+              <h1>MIT Projects</h1>
+              <h4>
+                Please, visit my projects page that I worked on as student of
+                program Full Stack Developer with MERN at Massachusetts
+                Institute of Technology - MIT
+              </h4>
+              <a class="btn btn-warning" href="./projects.html" data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                Visit Projects Page</a
+              >
+            </div>
+          </div>
+        </section>
+        <hr class="my-spacer" />
+
+        <section class="working-on">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1>What are you working on?</h1>
+              <p>
+                Let's have a talk about your next project in order to find a way
+                to work together.
+              </p>
+              <a
+                href="mailto:ocram@beltren.dev"
+                target="_blank"
+                class="btn btn-success"
+                ><i class="far fa-comments"></i><span>Chat</span></a
+              >
+            </div>
+          </div>
+        </section>
+        <hr class="my-spacer" />
+      </main>
+    </div>
+
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1">
+            <div class="pacman">
+              <div class="pacman__eye"></div>
+              <div class="pacman__mouth"></div>
+              <div class="pacman__food"></div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="my-built">
+              <address>
+                <span class="multicolor">Designed and developed</span> by Renato
+                Beltran
+              </address>
+            </div>
+          </div>
+          <div class="col-md-6" style="text-align: right">
+            Built with bootstrap, HTML5, CSS and Javascript
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/typewriting.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/b141b207b9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
