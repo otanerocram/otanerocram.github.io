@@ -33,6 +33,10 @@
   .my-spacer {
     margin: 50px 0;
   }
+
+  .video-wrapper iframe {
+    height: 250px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .i-am {
@@ -52,23 +56,19 @@
     font-size: 24px !important;
   }
 
-  .video-wrapper iframe{
+  .video-wrapper iframe {
     height: 315px;
   }
 }
 
 html {
-  height: 100%;
 }
 body {
-  height: 100%;
-  /* background-color: var(--my-bg-color); */
   background-image: linear-gradient(#1c2a34, #111a20);
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
   height: 100vw;
-  /* height: 100vh; */
 }
 
 .my-header {
@@ -178,7 +178,8 @@ body {
 }
 
 .my-contact {
-  font-size: 50px;
+  font-size: 44px;
+  padding-bottom: 10px
 }
 .my-contact > a {
   margin: 10px;
@@ -200,37 +201,37 @@ body {
   font-style: normal;
   font-family: var(--font-jost);
 }
-.working-on  h1{
-  color: var(--color-neon-green)
+.working-on h1 {
+  color: var(--color-neon-green);
 }
-.working-on a{
+.working-on a {
   padding: 8px 32px;
   border-radius: 10px;
 }
 
-.working-on span{
+.working-on span {
   padding-left: 10px;
 }
 
-.card{
+.card {
   background-color: var(--my-bg-color);
   margin: 20px;
 }
 
-.c-green{
-  border-left:5px solid #79cf94;
+.c-green {
+  border-left: 5px solid #79cf94;
 }
-.c-red{
-  border-left:5px solid #ff6d6d;
+.c-red {
+  border-left: 5px solid #ff6d6d;
 }
-.c-blue{
-  border-left:5px solid #31a6f9;
+.c-blue {
+  border-left: 5px solid #31a6f9;
 }
-.c-main{
-  border-left:5px solid #9466c7;
+.c-main {
+  border-left: 5px solid #9466c7;
 }
 
-.more-projects{
+.more-projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -239,36 +240,49 @@ body {
   margin-top: 50px;
 }
 
-.more-projects h1{
+.more-projects h1 {
   font-family: var(--font-jost);
 }
 
-.more-projects h4{
+.more-projects h4 {
   font-family: var(--font-anonymous);
 }
 
-.more-projects h6{
+.more-projects h6 {
   font-family: var(--font-anonymous);
   font-style: normal;
   font-weight: 300;
   text-align: left;
 }
 
-.more-projects a{
+.more-projects a {
   padding: 8px 18px;
   margin-top: 10px;
   text-transform: uppercase;
   width: 100%;
 }
 
-.video-wrapper iframe{
+.video-wrapper iframe {
   width: 100%;
 }
 
 .multicolor {
-  background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    green,
+    blue,
+    yellow,
+    orange,
+    red
+  );
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.hero-img {
+  width: 90%;
 }
