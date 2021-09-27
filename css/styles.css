@@ -269,14 +269,15 @@ body {
 .multicolor {
   background-image: linear-gradient(
     to left,
-    violet,
-    indigo,
+    chartreuse,
+    gold,
     green,
-    blue,
+    aqua,
     yellow,
     orange,
     red
   );
+  
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
